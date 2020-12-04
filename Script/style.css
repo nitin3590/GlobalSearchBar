@@ -1,0 +1,415 @@
+body {
+    cursor: default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    text-decoration: none;
+}
+
+/************Search Bar************/
+.searchbar {
+    position: absolute;
+    bottom: 45.73%;
+    left: 38.05%;
+    outline: none;
+    height: 40px;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 24px;
+    width: 300px;
+    font-size: 15px;
+}
+
+/************Clock************/
+.clock {
+    position: absolute;
+    left: 43%;
+    top: 15%;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock:hover {
+    color: white;
+}
+
+.clock1 {
+    position: absolute;
+    left: 43.16%;
+    top: 0.8%;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/************Search Engine************/
+.google,
+.yahoo,
+.duckduckgo,
+.bing {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.google:hover,
+.yahoo:hover,
+.duckduckgo:hover,
+.bing:hover {
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.highlight {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+    display: none;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.menu {
+    position: absolute;
+    top: 1.7%;
+    left: 2%;
+}
+
+.menu:hover {
+    transform: scale(1.5);
+}
+
+/************Settings************/
+.settings {
+    position: absolute;
+    top: 2%;
+    left: 96%;
+}
+
+.settings-menu {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 75%;
+    padding: 5.5px;
+    display: none;
+}
+
+.settings:hover {
+    transform: rotate(20deg);
+}
+
+.clock-format-settings,
+.show-seconds-settings {
+    color: black;
+}
+
+.clock-format-settings:hover,
+.show-seconds-settings:hover {
+    text-shadow: 2px 2px 6px grey;
+    cursor: pointer;
+}
+
+/************Page Movement************/
+
+.next-page {
+    position: absolute;
+    bottom: 2%;
+    right:1%;
+}
+
+.next-page:hover {
+    transform: scale(1.5);
+}
+
+.back {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 118%;
+    right: 95%;
+}
+
+.back:hover {
+    transform: scale(-1.5);
+}
+
+/************Catogories************/
+.educ{
+    position: absolute;
+    top: 14%;
+    left: 2.5%;
+}
+.ente{
+    position: absolute;
+    top: 34%;
+    left: 2.5%;
+}
+.mail{
+    position: absolute;
+    top: 54%;
+    left: 2.5%;
+}
+.musi{
+    position: absolute;
+    top: 74%;
+    left: 2.5%;
+}
+.soci{
+    position: absolute;
+    top: 94%;
+    left: 2.5%;
+}
+
+/************Quick View Items************/
+.Udemy,
+.Aha,
+.Hotstar,
+.Netflix,
+.Prime,
+.Youtube,
+.Gmail,
+.Icloud,
+.Outlook,
+.Yahoo,
+.Gaana,
+.Spotify,
+.Youtube-Music,
+.Facebook,
+.Instagram,
+.Messenger{
+    position: absolute;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #2C2E2F;
+    background-color: #2C2E2F;
+    width: 80px;
+    text-align: center;
+}
+
+.Udemy{
+    color: #E85252;
+    top: 22%;
+    left: 13%;
+}
+.Udemy-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 34%;
+    left: 14%;
+}
+.Aha{
+    color: #FF6D32;
+    top: 42%;
+    left: 13%;
+}
+.Aha-h{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    top: 54%;
+    left: 15%;
+}
+.Hotstar{
+    color: #0B1036;
+    top: 42%;
+    left: 23%;
+}
+.Hotstar-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 54%;
+    left: 24%;
+}
+.Netflix{
+    color: #A81912;
+    top: 42%;
+    left: 33%;
+}
+.Netflix-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 54%;
+    left: 34%;
+}
+.Prime{
+    color: #3876AA;
+    top: 42%;
+    left: 43%;
+}
+.Prime-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 54%;
+    left: 42.5%;
+}
+.Youtube{
+    color: #FF0000;
+    top: 42%;
+    left: 53%;
+}
+.Youtube-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 54%;
+    left: 53.75%;
+}
+.Gmail{
+    color: #EA4134;
+    top: 62%;
+    left: 13%;
+}
+.Gmail-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 74%;
+    left: 14%;
+}
+.Icloud{
+    color: #629EEB;
+    top: 62%;
+    left: 23%;
+}
+.Icloud-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 74%;
+    left: 24%;
+}
+.Outlook{
+    color: #006BBB;
+    top: 62%;
+    left: 33%;
+}
+.Outlook-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 74%;
+    left: 33.7%;
+}
+.Yahoo{
+    color: #3A0189;
+    top: 62%;
+    left: 43%;
+}
+.Yahoo-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 74%;
+    left: 44%;
+}
+.Gaana{
+    color: #EF3248;
+    top: 82%;
+    left: 13%;
+}
+.Gaana-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 94%;
+    left: 14%;
+}
+.Spotify{
+    color: #016913;
+    top: 82%;
+    left: 23%;
+}
+.Spotify-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 94%;
+    left: 24%;
+}
+.Youtube-Music{
+    color: #FF0000;
+    top: 82%;
+    left: 33%;
+}
+.Youtube-Music-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 94%;
+    left: 32%;
+}
+.Facebook{
+    color: #1177EF;
+    top: 102%;
+    left: 13%;
+}
+.Facebook-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 114%;
+    left: 13.3%;
+}
+.Instagram{
+    color: white;
+    top: 102%;
+    left: 23%;
+}
+.Instagram-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top:114%;
+    left: 23.2%;
+}
+.Messenger{
+    color: #4365FC;
+    top: 102%;
+    left: 33%;
+}
+.Messenger-h{
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    top: 114%;
+    left: 33%;
+}
+/************Resoluton Warning************/
+#resol-content {
+    display: none;
+}
+
+@media screen and (max-width: 1315px) {
+    #desktop-content {
+        display: none;
+        visibility: hidden;
+    }
+
+    #resol-content {
+        display: block;
+    }
+}
+
+#resol-content {
+    text-align: center;
+    background-color: #55c36b;
+    background-size: 140%;
+    background-position: center;
+    position: fixed;
+    top: 0%;
+    bottom: 0px;
+    left: 0%;
+    right: 0%;
+}
