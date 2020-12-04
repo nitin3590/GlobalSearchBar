@@ -134,7 +134,7 @@ body {
 .back {
     transform: rotate(180deg);
     position: absolute;
-    top: 118%;
+    top: 118.4%;
     right: 95%;
 }
 
@@ -145,27 +145,27 @@ body {
 /************Catogories************/
 .educ{
     position: absolute;
-    top: 14%;
+    top: 14.5%;
     left: 2.5%;
 }
 .ente{
     position: absolute;
-    top: 34%;
+    top: 34.5%;
     left: 2.5%;
 }
 .mail{
     position: absolute;
-    top: 54%;
+    top: 54.5%;
     left: 2.5%;
 }
 .musi{
     position: absolute;
-    top: 74%;
+    top: 74.5%;
     left: 2.5%;
 }
 .soci{
     position: absolute;
-    top: 94%;
+    top: 94.5%;
     left: 2.5%;
 }
 
@@ -204,7 +204,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 36%;
+    top: 34.5%;
     left: 14%;
 }
 .Aha{
@@ -216,7 +216,7 @@ body {
     position: absolute;
     font-size: 20px;
     color: black;
-    top: 56%;
+    top: 54.5%;
     left: 15%;
 }
 .Hotstar{
@@ -228,7 +228,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 56%;
+    top: 54.5%;
     left: 24%;
 }
 .Netflix{
@@ -240,7 +240,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 56%;
+    top: 54.5%;
     left: 34%;
 }
 .Prime{
@@ -252,7 +252,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 56%;
+    top: 54.5%;
     left: 42.5%;
 }
 .Youtube{
@@ -264,7 +264,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 56%;
+    top: 54.5%;
     left: 53.75%;
 }
 .Gmail{
@@ -276,7 +276,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 76%;
+    top: 74.5%;
     left: 14%;
 }
 .Icloud{
@@ -288,7 +288,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 76%;
+    top: 74.5%;
     left: 24%;
 }
 .Outlook{
@@ -300,7 +300,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 76%;
+    top: 74.5%;
     left: 33.7%;
 }
 .Yahoo{
@@ -312,7 +312,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 76%;
+    top: 74.5%;
     left: 44%;
 }
 .Gaana{
@@ -324,7 +324,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 96%;
+    top: 94.5%;
     left: 14%;
 }
 .Spotify{
@@ -336,7 +336,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 96%;
+    top: 94.5%;
     left: 24%;
 }
 .Youtube-Music{
@@ -348,7 +348,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 96%;
+    top: 94.5%;
     left: 32%;
 }
 .Facebook{
@@ -360,7 +360,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 116%;
+    top: 114.5%;
     left: 13.3%;
 }
 .Instagram{
@@ -372,7 +372,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top:116%;
+    top:114.5%;
     left: 23.2%;
 }
 .Messenger{
@@ -384,7 +384,7 @@ body {
     font-size: 20px;
     position: absolute;
     color: black;
-    top: 116%;
+    top: 114.5%;
     left: 33%;
 }
 /************Resoluton Warning************/
