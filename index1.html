@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/Global_Search_Bar.ico" rel="icon" type="image/x-icon">
+    <title>Global Search Bar - Quick View</title>
+    <link rel="stylesheet" href="Script/style.css">
+
+</head>
+
+<body style="background-image: url(images/2nd-Pagerw.jpg); background-size: 140%;">
+    <h4 id="clock" class="clock1"></h4>
+    <div id="back" class="back" onclick="document.location='index.html'">
+        <img src="images/New_Page.png" alt="Previous-page" height="46px">
+    </div>
+    <!--<div id="menu" class="menu" style="cursor: pointer;" onclick="$('#Categories').slideToggle();">
+        <img src="images/Menu.png" alt="Menu" height="36px">
+    </div>!-->
+    <div id="settings" class="settings" style="cursor: pointer;" onclick="$('#settings-menu').slideToggle();">
+        <img src="images/Settings.png" alt="Settings" height="36px">
+    </div>
+    <div id="settings-menu" class="settings-menu">
+        <table cellspacing="10px" cellpadding="10px">
+            <tr>
+                <td><div style="text-decoration:none;" class="clock-format-settings" id="clock-12" onclick="setHours();">Clock Format</div></td>
+                <td><div style="text-decoration:none;" class="show-seconds-settings" onclick="setSeconds();">Show Seconds</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="Categories" class="Categories">
+        <h2 class="educ">Education</h2>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.udemy.com"><div class="Udemy" style="cursor: pointer;">
+                    <h1>U</h1>
+                    </div></a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="Udemy-h">Udemy</div>
+                </td>
+            </tr>
+        </table>
+        <h2 class="ente">Entertainment</h2>
+        <table class="ente-table">
+            <tr>
+                <td>
+                    <a href="https://www.aha.video"><div class="Aha" style="cursor: pointer;">
+                        <h1>A</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://www.hotstar.com/in"><div class="Hotstar" style="cursor: pointer;">
+                        <h1>H</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="http://www.netflix.com"><div class="Netflix" style="cursor: pointer;">
+                        <h1>N</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://www.primevideo.com"><div class="Prime" style="cursor: pointer;">
+                        <h1>P</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://www.youtube.com"><div class="Youtube" style="cursor: pointer;">
+                        <h1>Y</h1>
+                    </div></a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="Aha-h">Aha</div>
+                </td>
+                <td>
+                    <div class="Hotstar-h">Hotstar</div>
+                </td>
+                <td>
+                    <div class="Netflix-h">Netflix</div>
+                </td>
+                <td>
+                    <div class="Prime-h">Prime Video</div>
+                </td>
+                <td>
+                    <div class="Youtube-h">Youtube</div>
+                </td>
+            </tr>
+        </table>
+        <h2 class="mail">Mail Service</h2>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://mail.google.com"><div class="Gmail" style="cursor: pointer;">
+                        <h1>G</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://www.icloud.com/mail"><div class="Icloud" style="cursor: pointer;">
+                        <h1>I</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://outlook.live.com/mail"><div class="Outlook" style="cursor: pointer;">
+                        <h1>O</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://mail.yahoo.com"><div class="Yahoo" style="cursor: pointer;">
+                        <h1>Y</h1>
+                    </div></a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="Gmail-h">Gmail</div>
+                </td>
+                <td>
+                    <div class="Icloud-h">Icloud</div>
+                </td>
+                <td>
+                    <div class="Outlook-h">Outlook</div>
+                </td>
+                <td>
+                    <div class="Yahoo-h">Yahoo</div>
+                </td>
+            </tr>
+        </table>
+        <h2 class="musi">Music</h2>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://gaana.com"><div class="Gaana" style="cursor: pointer;">
+                        <h1>G</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://www.spotify.com/in/"><div class="Spotify" style="cursor: pointer;">
+                        <h1>S</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://music.youtube.com/"><div class="Youtube-Music" style="cursor: pointer;">
+                        <h1>Y</h1>
+                    </div></a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="Gaana-h">Gaana</div>
+                </td>
+                <td>
+                    <div class="Spotify-h">Spotify</div>
+                </td>
+                <td>
+                    <div class="Youtube-Music-h">Youtube Music</div>
+                </td>
+            </tr>
+        </table>
+        <h2 class="soci">Social Media</h2>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com"><div class="Facebook" style="cursor: pointer;">
+                        <h1>F</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://www.instagram.com"><div class="Instagram" style="cursor: pointer;">
+                        <h1>I</h1>
+                    </div></a>
+                </td>
+                <td>
+                    <a href="https://www.messenger.com"><div class="Messenger" style="cursor: pointer;">
+                        <h1>M</h1>
+                    </div></a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="Facebook-h">Facebook</div>
+                </td>
+                <td>
+                    <div class="Instagram-h">Instagram</div>
+                </td>
+                <td>
+                    <div class="Messenger-h">Messenger</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="resol-content">
+        <center>
+            <br><br><br><br><br><br>
+            <h1 style="font-size: 40px;">Sorry, This website is not<br>optimized for this resolution</h1>
+        </center>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Script/jquery.min.js"></script>
+    <script src="Script/index.js"></script>
+</body>
+
+</html>
