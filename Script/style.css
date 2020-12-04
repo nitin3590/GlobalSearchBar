@@ -92,6 +92,7 @@ body {
     position: absolute;
     top: 2%;
     left: 96%;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .settings-menu {
@@ -104,7 +105,7 @@ body {
 }
 
 .settings:hover {
-    transform: rotate(20deg);
+    transform: rotate(100deg);
 }
 
 .clock-format-settings,
